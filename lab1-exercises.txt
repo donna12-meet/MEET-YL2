@@ -1,0 +1,20 @@
+(A):ls
+    cd y2-yearlong-django-review/
+    cd toplists/
+    python manage.py syncdb
+    python manage.py runserver 
+
+(B):127.0.0.1:8000/movies
+    http://127.0.0.1:8000/movies/1/
+    http://127.0.0.1:8000/movies/100/
+
+(C):##/home/donna12/Desktop/MEET-YL2/y2-yearlong-django-review/toplists/movies/views.py in add_movie## 
+   add_movie was called when we add this URL    	"http://127.0.0.1:8000/movies/addmovie" into the broswer
+	Movie 
+	####def movie(request, movie_id):
+    return HttpResponse("this is where you see movie number " + movie_id + " and all it's comments")####
+	the shrek thingy says PAGE NOT FOUND:The current URL,  		shrek, didn't match any of these.
+
+(D):
+
+
