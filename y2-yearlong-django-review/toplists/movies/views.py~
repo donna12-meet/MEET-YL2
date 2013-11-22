@@ -21,7 +21,7 @@ def add_movie(request):
 	
 def movie(request, movie_id):
 	movies_with_id_movie_id = Movies.objects.filter(pk=movie_id)
-	context = {'movies_id': movies_with_id_movie_id }
+	context = {'movies_id': 'movies_with_id_movie_id' }
     return HttpResponse("this is where you see movie number " + movie_id + " and all it's comments")
 
 def add_comment(request, movie_id):
