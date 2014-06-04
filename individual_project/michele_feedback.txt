@@ -1,0 +1,5 @@
+I know you’ve had hardware issues with the phone so you couldn’t test anything, so I will comment on the design. Having a black background would not have been my first choice of color, but if you like the black, then it is recommended to have lighter colors like white and yellow as text - it just looks less painful to the eyes. 
+
+Also, it is slightly unclear to me how you are supposed to use the app. Are you supposed to set the time and the alarm time? Are you only supposed to set one of them? How do I know if the alarm is on? A bunch of these questions immediately popped into my mind when I first saw the interface, so I think there could be a lot of improvement there. 
+
+I hope you enjoyed working on this project despite all the annoying things that happened with the hardware and the phones. Having this happen once to a project in your life is also a good experience. 
